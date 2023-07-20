@@ -30,10 +30,15 @@ header{
                 display: inline-block;
                 padding: 0 15px;
                 a{
-                    color: #f5e0ab;
+                    color: #b4b4b2;
                 }
                 a:hover{
                     color: rgb(29, 128, 194);
+                }
+            }
+            @media(max-width:1000px){
+                li{
+                   display: none; 
                 }
             }
         }
@@ -55,5 +60,10 @@ header{
     }
     .fa-bars{
         display: none;
+    }
+    @media(max-width:1000px){
+        .fa-bars{
+           display: inline-block; 
+        }
     }
 }

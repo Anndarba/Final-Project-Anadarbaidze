@@ -93,10 +93,15 @@ header nav ul li {
   padding: 0 15px;
 }
 header nav ul li a {
-  color: #f5e0ab;
+  color: #b4b4b2;
 }
 header nav ul li a:hover {
   color: rgb(29, 128, 194);
+}
+@media (max-width: 1000px) {
+  header nav ul li {
+    display: none;
+  }
 }
 
 .icons {
@@ -117,27 +122,33 @@ header nav ul li a:hover {
 .icons .fa-bars {
   display: none;
 }
+@media (max-width: 1000px) {
+  .icons .fa-bars {
+    display: inline-block;
+  }
+}
 
 .fotk {
   width: 100%;
-  height: 650px;
+  height: 550px;
   display: flex;
-  padding-top: 120px;
-  background-color: rgb(160, 154, 154);
+  background-color: rgb(235, 233, 233);
 }
 .fotk img {
-  width: 650px;
+  width: 70%;
+  height: 350px;
+  margin-top: 100px;
 }
 
 .inf {
+  width: 100%;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
-  margin-top: 50px;
+  margin-top: 90px;
 }
 .inf h2 {
-  padding-top: 80px;
   font-size: 32px;
   font-family: "Cardo", serif;
   margin-bottom: 50px;
@@ -145,13 +156,19 @@ header nav ul li a:hover {
 .inf h2 span {
   color: #FFCA42;
 }
+@media (max-width: 690px) {
+  .inf h2 {
+    padding-top: 0px;
+    align-items: center;
+  }
+}
 .inf h3 {
   font-size: 20px;
   color: #3b3525;
 }
-.inf .click {
-  width: 130px;
-  height: 45px;
+.inf .click h4 {
+  width: 140px;
+  height: 55px;
   border: 2px solid rgb(68, 66, 66);
   background-color: #FFCA42;
   margin-top: 50px;
@@ -167,8 +184,19 @@ header nav ul li a:hover {
   color: beige;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1040px) {
   .fotk img {
     width: 50%;
+  }
+}
+@media (max-width: 690px) {
+  .fotk img {
+    width: 100px;
+    padding-top: 190px;
+    margin-top: 200px;
+    margin-left: 90px;
+  }
+  .inf {
+    margin-right: 150px;
   }
 }/*# sourceMappingURL=global.css.map */
