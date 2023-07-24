@@ -1,0 +1,29 @@
+@mixin fontebi{
+    color: #FFF;
+    // font-family: Cardo;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 28.8px */
+    letter-spacing: -0.48px;
+    margin-bottom: 24px;
+}
+@mixin spanebi{
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%; /* 22.5px */
+    letter-spacing: 0.36px;
+    margin-right: 8px;
+ }
+ @mixin aebi{
+    color: #B4C7E7;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 205%; /* 36.9px */
+    letter-spacing: -0.18px;
+ }

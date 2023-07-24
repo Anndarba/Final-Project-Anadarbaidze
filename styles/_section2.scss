@@ -102,13 +102,12 @@
     .book1, .book2{
         img{
             max-width: 70%;
-            padding-right: 80px;
+            // padding-right: 80px;
         }
         .txt1{
             h4, h3{
                 font-size: 15px;
-                max-width: 70%;
-                padding-right: 50px;
+                width: 80%;
             }
         }
     }

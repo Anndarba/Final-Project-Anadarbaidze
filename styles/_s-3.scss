@@ -9,8 +9,7 @@
     }
     .author-info{
         max-width: 500px;
-        height: 300px;
-        border: 2px solid black;
+        height: auto;
         h3{
             color: #1B3764;
             font-family: Cardo;
@@ -40,4 +39,34 @@
     align-items: center;
     margin: 0 auto;
     flex-wrap: wrap;
+}
+@media(max-width: 580px){
+    .section3{
+        height: 800px;
+    }
+}
+@media(max-width: 1016px){
+    .author-img{
+        margin-top: 60px;
+    }
+    .section3{
+        height: 900px;
+        
+    }
+}
+@media(max-width: 330px){
+  .yvela{
+    .author{
+        .author-img{
+            img{
+             width: 95%;
+            }
+         }
+    }
+  }
+}
+@media(max-width: 177px){
+    .section3{
+        height: 950px;
+    }
 }

@@ -17,6 +17,11 @@ header{
         // position: fixed;
         // left: 0px;
         // z-index: 100;
+        .headerflex{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
         .logo{
             img{
                 width: 150px;
