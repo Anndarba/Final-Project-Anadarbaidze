@@ -30,7 +30,7 @@ header{
                 display: inline-block;
                 padding: 0 15px;
                 a{
-                    color: #b4b4b2;
+                    color: #FFFFFF;
                 }
                 a:hover{
                     color: rgb(29, 128, 194);
@@ -64,6 +64,17 @@ header{
     @media(max-width:1000px){
         .fa-bars{
            display: inline-block; 
+        }
+    }
+}
+@media(max-width: 260px){
+    nav{
+        padding-top: 40px;
+        padding-right: 15px;
+        .logo{
+            img{
+                display: none;
+            }
         }
     }
 }
