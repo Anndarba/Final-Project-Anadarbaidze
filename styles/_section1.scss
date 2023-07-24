@@ -4,14 +4,14 @@
 }
 .main{
     width: 80%;
-    height: 760px;
+    min-height: 760px;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
     .main-texts{
         max-width: 620px;
         height: 720px;
-        margin-top: 150px;
+        margin-top: 100px;
         h2{
             color: #FFF;
             font-family: Cardo;
@@ -135,8 +135,9 @@
 }
 @media(max-width: 400px){
     .btn{
-        display: block;
+        flex-wrap: wrap;
         margin: 0 auto;
+        justify-content: center;
         padding-top: 30px;
         button{
             margin-bottom: 10px;
@@ -152,37 +153,11 @@
         }
     }
 }
-// @media(max-width: 260px){
-//     .main-img{
-//         margin-top: 50px;
-//     }
-// }
-// @media(max-width: 260px){
-//     .main-img{
-//         margin-top: 80px;
-//         width: 100%;
-//     }
-// }
-// @media(max-width: 162px){
-//     .main-img{
-//         margin-top: 110px;
-//     }
-// }
-// @media(max-width: 187px){
-//     .main-img{
-//     margin-top: 110px;
-// }
-// }
 @media(max-width: 200px){
     .btn{
         button, h5{
             width: 100px;
         }
-}
-@media(max-width: 255px){
-    .main-img{
-        margin-top: 100px;
-    }
 }
 .main{
     .main-texts{
@@ -195,8 +170,15 @@
      }
 }
 }
-@media(max-width: 175px){
+@media(max-width: 260px){
     .main-img{
-        margin-top: 140px;
+        margin-top: 150px;
     }
+}
+@media(max-width: 150px){
+    .main-img{
+        img{
+            display: none;
+        }
+}
 }
