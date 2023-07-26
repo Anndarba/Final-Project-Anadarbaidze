@@ -1,6 +1,6 @@
 .section3{
     width: 100%;
-    height: 700px;
+    height: 650px;
     background: #F4F8FF;
     .author-img{
         img{
@@ -82,5 +82,13 @@
 @media(max-width: 304px){
     .s-3{
         height: 1430px;
+    }
+}
+@media(max-width: 317px){
+    .author-info{
+       h3{
+        width: 100%;
+        text-align: center;
+       }
     }
 }
