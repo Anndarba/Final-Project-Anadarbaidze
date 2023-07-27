@@ -171,6 +171,11 @@ header nav ul li a:hover {
     display: none;
   }
 }
+@media (max-width: 150px) {
+  .s-1 {
+    height: 1070px;
+  }
+}
 .dropbtn {
   padding: 16px;
   border: none;
@@ -251,7 +256,7 @@ nav .logo .sakontaqto1 div .fbicon i {
 
 .ein-wrap {
   width: 100%;
-  height: 650px;
+  height: 700px;
   background-color: #1B3764;
 }
 
@@ -303,12 +308,17 @@ nav .logo .sakontaqto1 div .fbicon i {
   nav .logo .sakontaqto1 {
     display: none;
   }
+  .eine-tags h1 {
+    font-size: 22px;
+  }
+  .eine-tags h3 {
+    font-size: 18px;
+  }
 }
 .eine1 {
   width: 80%;
   height: 470px;
   margin: 0 auto;
-  background-color: #FFFFFF;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -321,7 +331,7 @@ nav .logo .sakontaqto1 div .fbicon i {
 
 .eine1-tag {
   width: 100%;
-  height: 160px;
+  height: 70px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -334,11 +344,15 @@ nav .logo .sakontaqto1 div .fbicon i {
 }
 .eine1-tag h3 {
   font-size: 39px;
+  margin-top: 20px;
 }
 
 .eine1-img img {
   max-width: 150px;
   width: 100%;
+}
+.eine1-img img {
+  height: 220px;
 }
 .eine1-img img:hover {
   cursor: pointer;
@@ -357,7 +371,26 @@ nav .logo .sakontaqto1 div .fbicon i {
   margin-top: 12px;
 }
 .eine1-info h2 {
+  color: #0b0c0c;
+  font-size: 15px;
+  font-weight: 700;
+}
+.eine1-info h2, .eine1-info h3, .eine1-info h4 {
   line-height: 24px;
+}
+.eine1-info h3, .eine1-info h4 {
+  color: #1B3764;
+  font-weight: 700;
+  font-size: 16px;
+}
+.eine1-info h3 span, .eine1-info h4 span {
+  color: #0c0c0c;
+  font-size: 18px;
+  font-weight: 600;
+}
+.eine1-info h4 {
+  color: #1B3764;
+  font-weight: 800;
 }
 
 .sec2 {
@@ -389,7 +422,7 @@ nav .logo .sakontaqto1 div .fbicon i {
 .sec2 .wrapperall .wrap-text {
   max-width: 400px;
   width: 100%;
-  height: 350px;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -442,6 +475,64 @@ nav .logo .sakontaqto1 div .fbicon i {
   .wrap-img {
     margin: 0 auto;
     padding-bottom: 70px;
+  }
+}
+.ferisi {
+  width: 100%;
+  height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 40px;
+}
+
+.yvitelia {
+  width: 60px;
+  height: 2px;
+  background-color: #FFCA42;
+  margin-top: 5px;
+}
+
+@media (max-width: 338px) {
+  .sec2 {
+    height: 1300px;
+  }
+}
+@media (max-width: 206px) {
+  .sec2 {
+    height: 1580px;
+  }
+}
+@media (max-width: 1125px) {
+  .sec3 {
+    height: 900px;
+  }
+}
+@media (max-width: 572px) {
+  .sec3 {
+    height: 1100px;
+  }
+}
+@media (max-width: 391px) {
+  .sec3 {
+    height: 1990px;
+  }
+  .sec3 .eine1-img {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width: 205px) {
+  .sec3 {
+    height: 2200px;
+  }
+}
+@media (max-width: 170px) {
+  .sec2 {
+    height: 1700px;
   }
 }
 .thema {
@@ -666,7 +757,7 @@ nav .logo .sakontaqto1 div .fbicon i {
   width: 200px;
 }
 .book1 .txt1, .book2 .txt1 {
-  width: 200px;
+  max-width: 200px;
   padding-top: 40px;
   padding-left: 20px;
 }
@@ -954,6 +1045,7 @@ nav .logo .sakontaqto1 div .fbicon i {
 }
 .pi h3 {
   color: #FFF;
+  font-family: "Cardo", serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -1034,9 +1126,9 @@ nav .logo .sakontaqto1 div .fbicon i {
 }
 .s-4 .meotxe {
   width: 80%;
-  height: 100px;
+  height: 80px;
   margin: 0 auto;
-  margin-top: 40px;
+  margin-top: 60px;
 }
 .s-4 .section4 {
   width: 100%;
@@ -1045,13 +1137,16 @@ nav .logo .sakontaqto1 div .fbicon i {
 }
 .s-4 .section4 .flexboxes {
   width: 100%;
-  height: 350px;
+  height: 200px;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-top: 80px;
@@ -1059,13 +1154,22 @@ nav .logo .sakontaqto1 div .fbicon i {
 .s-4 .section4 .sataur h2 {
   color: #1B3764;
   text-align: center;
-  font-family: Cardo;
+  font-family: "Cardo", serif;
   font-size: 45px;
   font-style: normal;
   font-weight: 700;
-  line-height: 120%; /* 54px */
   letter-spacing: -0.9px;
-  margin: 0 auto;
+  margin-bottom: 13px;
+}
+
+.wrap1-img .fot {
+  width: 189px;
+  height: 88px;
+  margin-bottom: 12px;
+}
+.wrap1-img img {
+  max-width: 100px;
+  height: 100px;
 }
 
 .wrap1 {
@@ -1079,7 +1183,7 @@ nav .logo .sakontaqto1 div .fbicon i {
 .wrap1 .wrap-tags h2 {
   color: #1B3764;
   text-align: center;
-  font-family: Cardo;
+  font-family: "Cardo", serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -1106,6 +1210,286 @@ nav .logo .sakontaqto1 div .fbicon i {
 @media (max-width: 496px) {
   .s-4 {
     height: 1400px;
+  }
+}
+@media (max-width: 230px) {
+  .s-4 {
+    height: 1470px;
+  }
+  .section5 .tog-tag h2 {
+    margin-top: 80px;
+    width: 100%;
+    font-size: 29px;
+  }
+}
+@media (max-width: 179px) {
+  .wrap1 {
+    margin-bottom: 70px;
+  }
+  .s-4 {
+    height: 1690px;
+  }
+}
+.tog-tag {
+  max-width: 567px;
+  height: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.tog-tag h2 {
+  color: #FFF;
+  font-family: "Cardo", serif;
+  font-family: "Roboto Mono", monospace;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 54px */
+  letter-spacing: -0.9px;
+}
+.tog-tag h3 {
+  margin-top: 10px;
+  color: #B4C7E7;
+  font-family: Inter;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%; /* 34.2px */
+  letter-spacing: -0.19px;
+}
+.tog-tag .btn {
+  margin-top: 30px;
+}
+.tog-tag .btn button {
+  border: 1px solid #FFCA42;
+  background-color: #1B3764;
+  color: #FFFFFF;
+  color: #FFF;
+  text-align: center;
+  font-family: "Cardo", serif;
+  font-family: "Roboto Mono", monospace;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%; /* 23.75px */
+  letter-spacing: 0.38px;
+}
+
+.yviteli {
+  width: 45px;
+  height: 2px;
+  background-color: #FFCA42;
+}
+
+.sectoion5 {
+  background-color: #1B3764;
+  width: 100%;
+  height: 400px;
+}
+
+.together {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  height: 400px;
+  margin: 0 auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.together img {
+  max-width: 640px;
+  width: 100%;
+  height: 427px;
+}
+
+.section5 {
+  width: 100%;
+  height: 450px;
+  background-color: #1B3764;
+}
+
+@media (max-width: 755px) {
+  .together {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .section5 {
+    height: 900px;
+  }
+  .img-div img {
+    width: 100%;
+  }
+}
+@media (max-width: 260px) {
+  .img-div {
+    margin-top: 160px;
+    height: 100px;
+  }
+  .img-div img {
+    height: 200px;
+  }
+}
+.s-6 {
+  width: 100%;
+  height: 700px;
+  background: #FFF;
+}
+
+.mexute {
+  width: 80%;
+  height: 550px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.mexute .imgi img {
+  max-width: 400px;
+  width: 100%;
+}
+
+.satauri {
+  width: 100%;
+  height: 110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.satauri h2 {
+  font-size: 35px;
+}
+
+.yellow {
+  width: 200px;
+  height: 200px;
+  background-color: #F4F8FF;
+}
+.yellow .yellowcircle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  background-color: #FFCA42;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.yellow .yellowcircle .yvitlis-tag {
+  width: 30px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.meoretag {
+  width: 150px;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.meoretag h3 {
+  max-width: 110px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.yveela {
+  max-width: 450px;
+  width: 100%;
+  height: 450px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.line {
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.yellowline {
+  width: 60px;
+  height: 2px;
+  background-color: #FFCA42;
+}
+
+@media (max-width: 826px) {
+  .s-6 {
+    height: 1100px;
+  }
+  .mexute {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+@media (max-width: 516px) {
+  .imgi {
+    margin-top: 450px;
+    width: 300px;
+  }
+  .s-6 {
+    height: 1440px;
+  }
+  .yellow {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 300px) {
+  .s-6 {
+    height: 1350px;
   }
 }
 .kontaqtis {

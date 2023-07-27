@@ -87,6 +87,11 @@ header{
         }
     }
 }
+@media(max-width: 150px){
+    .s-1{
+        height: 1070px;
+    }
+}
 // dropdown
 .dropbtn {
     padding: 16px;
