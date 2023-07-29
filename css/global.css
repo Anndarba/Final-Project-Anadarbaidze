@@ -965,6 +965,9 @@ nav .logo .sakontaqto1 div .fbicon i {
   .t1 {
     margin: 0 auto;
   }
+  .section3 {
+    height: 1400px;
+  }
 }
 @media (max-width: 304px) {
   .s-3 {
@@ -1202,14 +1205,14 @@ nav .logo .sakontaqto1 div .fbicon i {
   letter-spacing: -0.18px;
 }
 
-@media (max-width: 977px) {
+@media (max-width: 1199px) {
   .s-4 {
     height: 1000px;
   }
 }
-@media (max-width: 496px) {
+@media (max-width: 616px) {
   .s-4 {
-    height: 1400px;
+    height: 1500px;
   }
 }
 @media (max-width: 230px) {
@@ -1227,7 +1230,7 @@ nav .logo .sakontaqto1 div .fbicon i {
     margin-bottom: 70px;
   }
   .s-4 {
-    height: 1690px;
+    height: 1730px;
   }
 }
 .tog-tag {
@@ -1308,6 +1311,8 @@ nav .logo .sakontaqto1 div .fbicon i {
   max-width: 640px;
   width: 100%;
   height: 427px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .section5 {
@@ -1528,7 +1533,7 @@ nav .logo .sakontaqto1 div .fbicon i {
 
 .section7 {
   width: 100%;
-  height: 700px;
+  height: 750px;
   background-color: #F4F8FF;
   margin: 0 auto;
 }
@@ -1555,6 +1560,7 @@ nav .logo .sakontaqto1 div .fbicon i {
       -ms-flex-align: center;
           align-items: center;
   margin: 0 auto;
+  gap: 30px;
 }
 
 .circle-1 {
@@ -1654,7 +1660,7 @@ nav .logo .sakontaqto1 div .fbicon i {
   letter-spacing: -0.19px;
 }
 
-@media (max-width: 816px) {
+@media (max-width: 846px) {
   .s-7wrap {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -1664,7 +1670,7 @@ nav .logo .sakontaqto1 div .fbicon i {
     margin-bottom: 20px;
   }
   .section7 {
-    height: 1050px;
+    height: 1200px;
   }
 }
 @media (max-width: 440px) {
@@ -1702,7 +1708,7 @@ nav .logo .sakontaqto1 div .fbicon i {
 }
 @media (max-width: 197px) {
   .section7 {
-    height: 2120px;
+    height: 2220px;
   }
   .div1 {
     height: 390px;
@@ -1774,11 +1780,185 @@ nav .logo .sakontaqto1 div .fbicon i {
   font-weight: 600;
   line-height: 170%;
   text-decoration-line: underline;
+  cursor: pointer;
 }
 
-.kontaqtis {
+.section8 {
   width: 100%;
   height: 500px;
+  background-color: rgb(255, 255, 255);
+}
+.section8 .s-8tag {
+  max-width: 1250px;
+  width: 100%;
+  height: 130px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.section8 .s-8tag h2 {
+  color: #1B3764;
+  font-family: Cardo;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 54px */
+  letter-spacing: -0.9px;
+}
+
+.divi-1img {
+  width: 200px;
+  width: 100%;
+  height: 110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.divi-1img img {
+  width: 55px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-right: 15px;
+}
+
+.divi-2tag {
+  max-width: 200px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+}
+.divi-2tag h2 {
+  margin-bottom: 10px;
+}
+
+.yvelarva {
+  max-width: 970px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.merve {
+  max-width: 950px;
+  width: 100%;
+  margin: 0 auto;
+}
+.merve .div-1 {
+  max-width: 300px;
+  width: 100%;
+  height: 300px;
+  background-color: #1B3764;
+}
+
+.rating-circle1 {
+  border-radius: 50px;
+  border-right-color: #FFCA42;
+  border-top-color: #FFFFFF;
+  border-bottom-color: #FFCA42;
+  border-left-color: #FFFFFF;
+  border-width: 6px;
+  border-style: solid;
+  rotate: 135deg;
+  height: 0px;
+  width: 0px;
+}
+
+.rating-circle {
+  border-radius: 50px;
+  border-color: #FFCA42;
+  border-width: 6px;
+  border-style: solid;
+  rotate: 135deg;
+  height: 0px;
+  width: 0px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.rating {
+  max-width: 120px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 7px;
+}
+
+@media (max-width: 916px) {
+  .div-1 {
+    margin-bottom: 10px;
+  }
+  .section8 {
+    height: 900px;
+  }
+}
+@media (max-width: 917px) {
+  .yvelarva {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+@media (max-width: 667px) {
+  .section8 {
+    height: 1200px;
+  }
+  .yvelarva {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+@media (max-width: 287px) {
+  .line {
+    display: none;
+  }
+}
+.kontaqtis {
+  width: 100%;
+  height: 300px;
   background-color: #1B3764;
 }
 .kontaqtis .tag {
@@ -1809,8 +1989,147 @@ nav .logo .sakontaqto1 div .fbicon i {
   letter-spacing: -1px;
 }
 
-.yvitel {
+.secti-2 {
+  width: 100%;
+  height: 700px;
+  background-color: #FFF;
+}
+
+.sak1 {
   width: 50px;
-  height: 2px;
-  background-color: red;
+  height: 50px;
+  background-color: #1B3764;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sakontaqtostvis {
+  max-width: 600px;
+  width: 100%;
+  height: 200px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.eseni {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.input1 {
+  max-width: 520px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.input1 input {
+  max-width: 250px;
+  width: 100%;
+  height: 55px;
+  border-color: red;
+  padding-left: 40px;
+}
+
+.textebi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.phone i {
+  position: relative;
+  left: 30px;
+}
+.phone input {
+  max-width: 520px;
+  width: 100%;
+  height: 55px;
+  border-color: red;
+  padding-left: 40px;
+}
+
+textarea {
+  max-width: 520px;
+  width: 100%;
+  height: 200px;
+  resize: none;
+  padding-left: 40px;
+  padding-top: 10px;
+}
+
+.suyvela {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+form {
+  height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.s2-tags {
+  max-width: 370px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.sect-2 {
+  width: 100%;
+  height: 450px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.formdiv {
+  max-width: 550px;
+  width: 100%;
 }/*# sourceMappingURL=global.css.map */
