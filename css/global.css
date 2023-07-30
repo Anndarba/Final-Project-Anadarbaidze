@@ -2202,7 +2202,7 @@ nav .logo .sakontaqto1 div .fbicon i {
 
 .s2eqcia {
   width: 100%;
-  height: 1200px;
+  height: 1300px;
   background-color: #F5F8FC;
 }
 
@@ -2289,15 +2289,20 @@ nav .logo .sakontaqto1 div .fbicon i {
         -ms-flex-align: center;
             align-items: center;
   }
+  .s2eqcia {
+    height: 1800px;
+  }
 }
 @media (max-width: 779px) {
   .yvelaferi {
     padding-top: 60px;
-    height: 2100px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
     gap: 60px;
+  }
+  .s2eqcia {
+    height: 3500px;
   }
 }
 .se-1 {

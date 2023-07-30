@@ -28,7 +28,7 @@
 }
 .s2eqcia{
     width: 100%;
-    height: 1200px;
+    height: 1300px;
     background-color: #F5F8FC;
 }
 .underline{
@@ -88,13 +88,19 @@ letter-spacing: -0.19px;
         height: 1700px;
         align-items: center;
    }
+   .s2eqcia{
+    height: 1800px;
+   }
 } 
 @media(max-width:779px){
     .yvelaferi{
         padding-top: 60px;
-        height: 2100px;
+        // height: 2100px;
         justify-content: center;
         // align-items: center;
         gap: 60px;
+   }
+   .s2eqcia{
+    height: 3500px;
    }
 }
