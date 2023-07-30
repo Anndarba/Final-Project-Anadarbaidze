@@ -131,11 +131,16 @@ font-family: 'Roboto Mono', monospace;
     }
         img{
             height: 220px;
+            transition: 0.5s ease;
+            -webkit-transition: 0.5s ease;
+            -moz-transition: 0.5s ease;
+            -ms-transition: 0.5s ease;
+            -o-transition: 0.5s ease;
+}
+        img:hover{
+            cursor: pointer;
+            scale: (1.1);
         }
-    img:hover{
-        cursor: pointer;
-        scale: (1.1);
-    }
 }
 .eine1-info{
     display: flex;
@@ -174,12 +179,13 @@ font-family: 'Roboto Mono', monospace;
     height: 600px;
     background: #F4F8FF;
     .wrapperall{
-        width: 80%;
+        width: 88%;
         height: 600px;
         display: flex;
         margin:  0 auto;
         align-items: center;
         flex-wrap: wrap;
+        justify-content: space-between;
         .wrap-img{
             max-width: 600px;
             width: 100%;
@@ -251,7 +257,12 @@ font-family: 'Roboto Mono', monospace;
 
 @media(max-width:338px){
     .sec2{
-        height: 1300px;
+        height: 1100px;
+    }
+}
+@media(max-width:235px){
+    .sec2{
+        height: 1250px;
     }
 }
 @media(max-width:206px){
