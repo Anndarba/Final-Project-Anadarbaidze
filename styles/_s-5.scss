@@ -1,6 +1,6 @@
 .tog-tag{
     max-width: 567px;
-    height: 450px;
+    min-height: 450px;
     display: flex;
     justify-content: center;
     // align-items: center;
@@ -30,47 +30,35 @@
 .sectoion5{
     background-color: #1B3764;
     width: 100%;
-    height: 400px;
+    min-height: 400px;
 }
 .together{
     display: flex;
     // flex-wrap: wrap;
     width: 90%;
-    height: 400px;
+    min-height: 400px;
     margin: 0 auto;
     justify-content: space-around;
     
     img{
         max-width: 640px;
         width: 100%;
-        height: 427px;
+        min-height: 427px;
         object-fit: contain;
 }
 }
 .section5{
     width: 100%;
-    height: 450px;
+    min-height: 450px;
     background-color: #1B3764;
 }
 @media(max-width:755px){
     .together{
         flex-wrap: wrap;
     }
-    .section5{
-        height: 900px;
-    }
     .img-div{
         img{
             width: 100%;
-        }
-    }
-}
-@media(max-width:260px){
-    .img-div{
-        margin-top: 160px;
-        height: 100px;
-        img{
-            height: 200px;
         }
     }
 }

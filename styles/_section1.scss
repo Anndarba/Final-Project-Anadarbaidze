@@ -41,7 +41,7 @@
                     }
     }
     .main-img{
-        height: 700px;
+        min-height: 700px;
         padding-top: 190px;
         img{
             width: 550px;
@@ -56,7 +56,7 @@
     margin-top: 50px;
     button{
         background-color: #FFCA42;
-        height: 54px;
+        min-height: 54px;
         width: 144px;
         color: #1B3764;
         text-align: center;
@@ -172,15 +172,15 @@
      }
 }
 }
-@media(max-width: 260px){
+@media(max-width: 287px){
     .main-img{
         margin-top: 150px;
     }
 }
-@media(max-width: 150px){
+@media(max-width: 180px){
     .main-img{
         img{
-            display: none;
+            margin-top: 60px;
         }
 }
 }

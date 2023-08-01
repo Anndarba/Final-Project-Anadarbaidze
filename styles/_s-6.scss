@@ -1,11 +1,11 @@
 .s-6{
     width: 100%;
-    height: 700px;
+    min-height: 700px;
     background: #FFF;
 }
 .mexute{
     width: 80%;
-    height: 550px;
+    min-height: 550px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -18,7 +18,7 @@
 }
 .satauri{
     width: 100%;
-    height: 110px;
+    min-height: 110px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,7 +35,7 @@
 }
 .yellow{
     width: 200px;
-    height: 200px;
+    min-height: 200px;
     background-color: #F4F8FF;
     .yellowcircle{
         width: 30px;
@@ -75,6 +75,7 @@
     max-width: 450px;
     width: 100%;
     height: 450px;
+    gap: 20px;
     flex-wrap: wrap;
     justify-content: space-around;
     display: flex;
@@ -90,29 +91,29 @@
     height: 2px;
     background-color: #FFCA42;
 }
-@media(max-width:826px){
-    .s-6{
-      height: 1100px;  
-}
 .mexute{
     flex-wrap: wrap;
     justify-content: center;
   }
-}
 @media(max-width:516px){
     .imgi{
         margin-top: 450px;
       width: 300px; 
 }
-.s-6{
-    height: 1440px;  
-}
 .yellow{
     margin-bottom: 20px;
 }
+.satauri{
+    h2{
+        font-size: 29px;
+    }
 }
-@media(max-width:300px){
-    .s-6{
-        height: 1350px;
+}
+@media(max-width:1059px){
+    .imgi{
+        img{
+         padding-top: 40px;
+         padding-bottom: 40px;
+        }
     }
 }

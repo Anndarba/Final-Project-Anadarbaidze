@@ -3,11 +3,11 @@
 }
 .kontaqtis{
     width: 100%;
-    height: 300px;
+    min-height: 300px;
     background-color: #1B3764;
     .tag{
         width: 100%;
-        height: 200px;
+        min-height: 200px;
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -26,12 +26,12 @@
 }
 .secti-2{
     width: 100%;
-    height: 650px;
+    min-height: 650px;
     background-color: #FFF;
 }
 .sak1{
     min-width: 50px;
-    height: 50px;
+    min-height: 50px;
     background-color: #1B3764;
     display: flex;
     align-items: center;
@@ -103,7 +103,7 @@ textarea{
     background: #FFF;
 }
 form{
-    height: 460px;
+    min-height: 460px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -135,11 +135,11 @@ form{
 }
 .sect-2{
     width: 100%;
-    height: 550px;
+    min-height: 550px;
     align-items: center;
     margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 .formdiv{
@@ -189,21 +189,6 @@ form{
         align-items: center;
     }
 }
-@media(max-width:936px){
-    .secti-2{
-        height: 1100px;
-    }
-}
-@media(max-width:359px){
-    .secti-2{
-        height: 1200px;
-    }
-}
-@media(max-width:187px){
-    .secti-2{
-        height: 1350px;
-    }
-}
 @media(max-width:430px){
     .kontaqtis{
         .tag{
@@ -225,5 +210,8 @@ form{
         display: flex;
         margin: 0 auto;
         margin-bottom: 20px;
+    }
+    .secti-2{
+        padding-bottom: 60px;
     }
 }

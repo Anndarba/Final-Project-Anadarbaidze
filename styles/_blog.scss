@@ -1,6 +1,6 @@
 .yvelaferi{
     width: 90%;
-    height: 1300px;
+    min-height: 1100px;
     margin:  0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -24,12 +24,14 @@
     }
 }
 .c-1{
-    height: 200px;
+    min-height: 200px;
 }
 .s2eqcia{
     width: 100%;
-    height: 1300px;
+    min-height: 1200px;
     background-color: #F5F8FC;
+    display: flex;
+    align-items: center;
 }
 .underline{
     display: flex;
@@ -51,7 +53,7 @@
 }
 .blogebiertad{
     max-width: 350px;
-    height: 500px;
+    min-height: 500px;
     background: #FFF;
     box-shadow: 0px 35px 25px 0px rgba(4, 11, 20, 0.04);
     display: flex;
@@ -67,41 +69,39 @@
     justify-content: space-between;
     h2{
         color: #1B3764;
-font-family: Cardo;
-font-size: 22px;
-font-style: normal;
-font-weight: 700;
-line-height: 120%; /* 28.8px */
-letter-spacing: -0.48px;
+        font-family: Cardo;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; /* 28.8px */
+        letter-spacing: -0.48px;
     }
     h3{
         color: #969AA0;
-font-family: Inter;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 180%; /* 34.2px */
-letter-spacing: -0.19px;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 180%; /* 34.2px */
+        letter-spacing: -0.19px;
     }
 }
 @media(max-width:1165px){
     .yvelaferi{
-        height: 1700px;
         align-items: center;
-   }
-   .s2eqcia{
-    height: 1800px;
    }
 } 
 @media(max-width:779px){
     .yvelaferi{
         padding-top: 60px;
-        // height: 2100px;
         justify-content: center;
         // align-items: center;
         gap: 60px;
    }
-   .s2eqcia{
-    height: 3500px;
-   }
 }
+@media(max-width:1167px){
+ .yvelaferi{
+    gap: 50px;
+    padding-bottom: 50px;
+}
+} 

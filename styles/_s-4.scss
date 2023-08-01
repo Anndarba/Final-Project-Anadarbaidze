@@ -1,17 +1,17 @@
 .s-4{
     .meotxe{
         width: 80%;
-        height: 80px;
+        // height: 80px;
         margin: 0 auto;
         margin-top: 60px;
         }
     .section4{
         width: 100%;
-        height: 450px;
+        min-height: 450px;
         background: #FFF;
         .flexboxes{
             width: 100%;
-            height: 200px;
+            min-height: 200px;
             margin: 0 auto;
             display: flex;
             justify-content: space-around;
@@ -47,7 +47,7 @@ img{
 }
 .wrap1{
     width: 240px;
-    height: 300px;
+    min-height: 300px;
    text-align: center;
    .wrap-tags{
     margin-top: 12px;
@@ -56,24 +56,12 @@ img{
     }
     h3{
         margin-top: 15px;
-        @include eichsamebi
+        @include eichsamebi;
+        font-family: 'Xanh Mono', monospace;
     }
    }
 }
-@media(max-width: 1199px){
-   .s-4{
-    height: 1000px;
-   }
-}
-@media(max-width: 616px){
-    .s-4{
-     height: 1500px;
-    }
- }
  @media(max-width:230px){
-    .s-4{
-        height: 1470px;
-    }
     .section5{
         .tog-tag{
             h2{
@@ -88,7 +76,15 @@ img{
     .wrap1{
         margin-bottom: 70px;
     }
-    .s-4{
-        height: 1730px;
+ }
+ @media(max-width:350px){
+   .section4{
+    .meotxe{
+        .sataur{
+            h2{
+                font-size: 26px;
+            }
+        }
     }
+   }
  }
