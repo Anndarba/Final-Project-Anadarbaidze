@@ -23,7 +23,7 @@
     }
 }
 .divi-1img{
-    width: 200px;
+    width: 100px;
     width: 100%;
     height: 110px;
     display: flex;
@@ -37,20 +37,32 @@
         -moz-border-radius: 50%;
         -ms-border-radius: 50%;
         -o-border-radius: 50%;
-        margin-right: 15px;
+        margin-right: 35px;
 
 }
 }
-
+.divi-1tag{
+    h3{
+        color: white;
+        font-family: 'Inter', sans-serif;
+    }
+}
 .divi-2tag{
-   max-width: 200px;
+   max-width: 300px;
     width: 100%;
    display: flex;
    flex-direction: column;
-   margin: 0 auto;
+   align-items: center;
+//    margin: 0 auto;
     // margin-left: 45px;
     h2{
         margin-bottom: 10px;
+        font-size: 18px;
+        color: white;
+    }
+    h3{
+        font-family: 'Inter', sans-serif;
+        font-size: 13px;
     }
 }
 .yvelarva{
@@ -128,8 +140,18 @@
         justify-content: center;
     }
 }
-@media(max-width:287px){
-    .line{
-        display: none;
-    }
+// @media(max-width:287px){
+//     .line{
+//         display: none;
+//     }
+// }
+@media(max-width:350px){
+ .section8{
+    .s-8tag{
+        h2{
+            font-size: 38px;
+            font-family: 'Inconsolata', monospace;
+        }
+    } 
+ }  
 }

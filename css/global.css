@@ -780,12 +780,17 @@ nav .logo .sakontaqto1 div .fbicon i {
 }
 .book1 .txt1 h4, .book2 .txt1 h4 {
   margin-top: 14px;
+  font-family: "Cardo", serif;
+  font-weight: 200;
+  line-height: 20px;
+  font-size: 15px;
 }
 .book1 .txt1 h3, .book2 .txt1 h3 {
   color: #1B3764;
-  font-size: 21px;
+  font-size: 19px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
+  font-family: "Inconsolata", monospace;
 }
 
 .lett {
@@ -938,7 +943,7 @@ nav .logo .sakontaqto1 div .fbicon i {
 
 .yvela {
   max-width: 80%;
-  height: 500px;
+  height: 600px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -975,7 +980,7 @@ nav .logo .sakontaqto1 div .fbicon i {
     height: 150px;
   }
 }
-@media (max-width: 308px) {
+@media (max-width: 351px) {
   .yvit {
     display: none;
   }
@@ -995,6 +1000,11 @@ nav .logo .sakontaqto1 div .fbicon i {
   .author-info h3 {
     width: 100%;
     text-align: center;
+  }
+}
+@media (max-width: 467px) {
+  .section3 {
+    height: 1500px;
   }
 }
 .futer {
@@ -1075,7 +1085,6 @@ nav .logo .sakontaqto1 div .fbicon i {
 }
 .pi a {
   color: #B4C7E7;
-  font-family: Inter;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -1214,7 +1223,6 @@ nav .logo .sakontaqto1 div .fbicon i {
   margin-top: 15px;
   color: #969AA0;
   text-align: center;
-  font-family: Inter;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -1277,7 +1285,6 @@ nav .logo .sakontaqto1 div .fbicon i {
 .tog-tag h3 {
   margin-top: 10px;
   color: #B4C7E7;
-  font-family: Inter;
   font-size: 19px;
   font-style: normal;
   font-weight: 400;
@@ -1357,6 +1364,11 @@ nav .logo .sakontaqto1 div .fbicon i {
   }
   .img-div img {
     height: 200px;
+  }
+}
+@media (max-width: 290px) {
+  .together .tog-tag h2 {
+    font-size: 25px;
   }
 }
 .s-6 {
@@ -1607,7 +1619,6 @@ nav .logo .sakontaqto1 div .fbicon i {
 }
 .allcircle .circle-1tag h4 {
   color: #969AA0;
-  font-family: Inter;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -1669,7 +1680,6 @@ nav .logo .sakontaqto1 div .fbicon i {
 }
 .div1-tags h3 {
   color: #969AA0;
-  font-family: Inter;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -1836,7 +1846,7 @@ nav .logo .sakontaqto1 div .fbicon i {
 }
 
 .divi-1img {
-  width: 200px;
+  width: 100px;
   width: 100%;
   height: 110px;
   display: -webkit-box;
@@ -1858,11 +1868,16 @@ nav .logo .sakontaqto1 div .fbicon i {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  margin-right: 15px;
+  margin-right: 35px;
+}
+
+.divi-1tag h3 {
+  color: white;
+  font-family: "Inter", sans-serif;
 }
 
 .divi-2tag {
-  max-width: 200px;
+  max-width: 300px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1871,10 +1886,18 @@ nav .logo .sakontaqto1 div .fbicon i {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .divi-2tag h2 {
   margin-bottom: 10px;
+  font-size: 18px;
+  color: white;
+}
+.divi-2tag h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
 }
 
 .yvelarva {
@@ -1968,9 +1991,10 @@ nav .logo .sakontaqto1 div .fbicon i {
             justify-content: center;
   }
 }
-@media (max-width: 287px) {
-  .line {
-    display: none;
+@media (max-width: 350px) {
+  .section8 .s-8tag h2 {
+    font-size: 38px;
+    font-family: "Inconsolata", monospace;
   }
 }
 .pirveliseqciis {
@@ -2615,7 +2639,6 @@ nav .logo .sakontaqto1 div .fbicon i {
   border-color: red;
   padding-left: 15px;
   color: #969AA0;
-  font-family: Inter;
   font-size: 19px;
   font-style: normal;
   font-weight: 400;
@@ -2644,7 +2667,6 @@ nav .logo .sakontaqto1 div .fbicon i {
   border-color: red;
   padding-left: 15px;
   color: #969AA0;
-  font-family: Inter;
   font-size: 19px;
   font-style: normal;
   font-weight: 400;
@@ -2661,7 +2683,6 @@ textarea {
   resize: none;
   padding-left: 15px;
   color: #969AA0;
-  font-family: Inter;
   font-size: 19px;
   font-style: normal;
   font-weight: 400;

@@ -32,9 +32,14 @@
         }
     }
 }
+// .author{
+//     height: 600px;
+//     display: flex;
+//     align-items: center;
+// }
 .yvela{
     max-width: 80%;
-    height: 500px;
+    height: 600px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -71,7 +76,7 @@
         height: 150px;
     }
 }
-@media(max-width: 308px){
+@media(max-width: 351px){
     .yvit{
         display: none;
     }
@@ -93,5 +98,10 @@
         width: 100%;
         text-align: center;
        }
+    }
+}
+@media(max-width: 467px){
+    .section3{
+        height: 1500px;
     }
 }
