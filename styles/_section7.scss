@@ -138,6 +138,11 @@
         cursor: pointer;
         justify-content: center;
         @include trail;
+        &:hover{
+            border: 1px solid #FFCA42;
+            color: #1B3764;
+            background-color: #FFFFFF;
+        }
     }
 }
 .trail-tag{

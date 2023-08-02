@@ -306,6 +306,7 @@ nav .logo .sakontaqto1 div .fbicon i {
   }
   .sec1 .ein-wrap {
     height: 700px;
+    padding: 0 13px;
   }
 }
 @media (max-width: 450px) {
@@ -1297,6 +1298,11 @@ nav .logo .sakontaqto1 div .fbicon i {
   line-height: 125%; /* 23.75px */
   letter-spacing: 0.38px;
 }
+.tog-tag .btn button:hover {
+  border: 1px solid #FFCA42;
+  color: #1B3764;
+  background-color: #FFFFFF;
+}
 
 .yviteli {
   width: 45px;
@@ -1737,6 +1743,11 @@ nav .logo .sakontaqto1 div .fbicon i {
   line-height: 125%; /* 23.75px */
   letter-spacing: 0.38px;
 }
+.Free .trail:hover {
+  border: 1px solid #FFCA42;
+  color: #1B3764;
+  background-color: #FFFFFF;
+}
 
 .trail-tag {
   width: 100%;
@@ -1959,6 +1970,11 @@ nav .logo .sakontaqto1 div .fbicon i {
     font-size: 29px;
   }
 }
+@media (max-width: 360px) {
+  .merve {
+    width: 80%;
+  }
+}
 .pirveliseqciis {
   width: 100%;
   min-height: 1300px;
@@ -2122,6 +2138,12 @@ nav .logo .sakontaqto1 div .fbicon i {
   font-weight: 700;
   line-height: 125%; /* 23.75px */
   letter-spacing: 0.38px;
+  cursor: pointer;
+}
+.buttoni1 button:hover {
+  background-color: #FFCA42;
+  color: #1B3764;
+  text-align: center;
   cursor: pointer;
 }
 
@@ -2503,7 +2525,7 @@ nav .logo .sakontaqto1 div .fbicon i {
 }
 
 .se-1 {
-  max-height: 300px;
+  max-height: 200px;
 }
 
 .kontaqtis {
@@ -2762,6 +2784,10 @@ form {
   line-height: 125%; /* 23.75px */
   letter-spacing: 0.38px;
   cursor: pointer;
+}
+.send button:hover {
+  border: 1px solid #FFCA42;
+  background: #FFF;
 }
 
 @media (max-width: 516px) {

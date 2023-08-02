@@ -1,5 +1,5 @@
 .se-1{
-    max-height: 300px;
+    max-height: 200px;
 }
 .kontaqtis{
     width: 100%;
@@ -173,6 +173,10 @@ form{
         line-height: 125%; /* 23.75px */
         letter-spacing: 0.38px;
         cursor: pointer;
+    }
+    button:hover{
+        border: 1px solid #FFCA42;
+        background: #FFF;
     }
 }
 @media(max-width:516px){

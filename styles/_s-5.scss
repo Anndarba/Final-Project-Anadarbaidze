@@ -20,6 +20,11 @@
             color: #FFFFFF;
             @include order
         }
+        button:hover{
+            border: 1px solid #FFCA42;
+            color: #1B3764;
+            background-color: #FFFFFF;
+        }
     }
 }
 .yviteli{
