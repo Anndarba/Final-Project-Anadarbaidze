@@ -2178,6 +2178,17 @@ nav .logo .sakontaqto1 div .fbicon i {
     font-family: "Xanh Mono", monospace;
   }
 }
+@media (max-width: 300px) {
+  .yvelawrap {
+    gap: 30px;
+  }
+  .yvelawrap .wrapp {
+    gap: 10px;
+  }
+  .yvelawrap .wrapp .bookswrap {
+    min-height: 10%;
+  }
+}
 .yvelaferi {
   width: 90%;
   min-height: 1100px;
@@ -2800,6 +2811,7 @@ form {
             justify-content: space-between;
     margin: 0 auto;
     padding-top: 50px;
+    gap: 5px;
   }
   .input1 {
     height: 150px;
@@ -2830,5 +2842,20 @@ form {
   }
   .secti-2 {
     padding-bottom: 60px;
+  }
+}
+@media (max-width: 420px) {
+  .s2-tags {
+    padding: 0 15px;
+  }
+}
+@media (max-width: 281px) {
+  .formebi {
+    padding: 0 15px;
+  }
+}
+@media (max-width: 183px) {
+  .formebi {
+    min-height: 600px;
   }
 }/*# sourceMappingURL=global.css.map */

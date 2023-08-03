@@ -168,3 +168,14 @@
         }
     }
 }
+@media(max-width: 300px){
+    .yvelawrap{
+         gap: 30px;
+        .wrapp{
+            gap: 10px;
+            .bookswrap{
+                min-height: 10%;
+            }
+        }
+    }
+}
