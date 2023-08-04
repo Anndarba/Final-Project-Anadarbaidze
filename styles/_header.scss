@@ -81,12 +81,15 @@ header{
 }
 @media(max-width: 260px){
     nav{
-        padding-top: 40px;
         padding-right: 15px;
         .logo{
             img{
                 display: none;
             }
+        }
+        .icons{
+            height: 60px;
+            align-items: center;
         }
     }
 }
