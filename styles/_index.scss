@@ -22,7 +22,7 @@ nav{
 // pirveli seqcia
 .eine{
     width: 100%;
-    height: 550px;
+    min-height: 550px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -36,7 +36,7 @@ nav{
 }
 .ein-wrap{
     width: 100%;
-    height: 700px;
+    min-height: 700px;
     background-color:#1B3764;
 }
 .eine-tags{
@@ -64,7 +64,7 @@ nav{
         line-height: 35px;
         color: #faf8f4;
         font-family: 'Cardo', serif;
-font-family: 'Roboto Mono', monospace;
+        font-family: 'Roboto Mono', monospace;
     }
 }
 @media(max-width:950px){
@@ -98,7 +98,7 @@ font-family: 'Roboto Mono', monospace;
 // pirveli seqcia
 .eine1{
     width: 80%;
-    height: 470px;
+    min-height: 470px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -180,11 +180,11 @@ font-family: 'Roboto Mono', monospace;
 
 .sec2{
     width: 100%;
-    height: 600px;
+    min-height: 600px;
     background: #F4F8FF;
     .wrapperall{
         width: 88%;
-        height: 600px;
+        min-height: 600px;
         display: flex;
         margin:  0 auto;
         align-items: center;
@@ -201,7 +201,7 @@ font-family: 'Roboto Mono', monospace;
         .wrap-text{
             max-width: 400px;
             width: 100%;
-            height: auto;
+            // height: auto;
             display: flex;
             align-items: center;
             flex-direction: column;
@@ -237,9 +237,6 @@ font-family: 'Roboto Mono', monospace;
     justify-content: center;
 }
 @media(max-width:1246px){
-    .sec2{
-        height: 900px;
-    }
     .wrap-text{
         margin: 0 auto;
     }
@@ -252,7 +249,7 @@ font-family: 'Roboto Mono', monospace;
 
 .ferisi{
     width: 100%;
-    height: 20px;
+    min-height: 20px;
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
@@ -264,36 +261,7 @@ font-family: 'Roboto Mono', monospace;
     margin-top: 5px;
 }
 // mediebi responsivi
-
-@media(max-width:338px){
-    .sec2{
-        height: 1100px;
-    }
-}
-@media(max-width:271px){
-    .sec2{
-        height: 1250px;
-    }
-}
-@media(max-width:215px){
-    .sec2{
-        height: 1580px;
-    }
-}
-@media(max-width:1125px){
-    .sec3{
-        height: 900px;
-    }
-}
-@media(max-width:584px){
-  .sec3{
-    height: 1100px;
-  }
-}
 @media(max-width:391px){
-    .sec3{
-      height: 1990px;
-    }
     .sec3{
         .eine1-img{
             width: 100%;
@@ -301,22 +269,6 @@ font-family: 'Roboto Mono', monospace;
         }
     }
   }
-  @media(max-width:205px){
-    .sec3{
-        height: 2200px;
-    }
-  }
-  @media(max-width:173px){
-    .sec2{
-        height: 1700px;
-    }
-  }
-  @media(max-width:158px){
-    .sec2{
-        height: 1850px;
-    }
-  }
-
   @media(max-width:430px){
     .eine1-tag{
         h3{
