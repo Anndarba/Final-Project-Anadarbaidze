@@ -44,8 +44,8 @@
     flex-direction: column;
     margin-top: 70px;
     h3{
-        @include fontebi
-    }
+         @include fontebi;
+        }
     a{
         @include aebi
     }
@@ -97,3 +97,4 @@
         }
     }
 }
+

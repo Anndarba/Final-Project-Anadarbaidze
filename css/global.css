@@ -289,7 +289,8 @@ nav .logo .sakontaqto1 div .fbicon i {
   font-size: 45px;
   font-style: normal;
   font-weight: 100;
-  line-height: 110%; /* 71.5px */
+  line-height: 110%;
+  /*71.5px*/
   letter-spacing: -1.3px;
   margin-bottom: 30px;
 }
@@ -748,7 +749,7 @@ nav .logo .sakontaqto1 div .fbicon i {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 90px;
+  margin-top: 40px;
 }
 .book1 img, .book2 img {
   width: 200px;
@@ -774,7 +775,7 @@ nav .logo .sakontaqto1 div .fbicon i {
 
 .lett {
   width: 100%;
-  margin-top: 145px;
+  margin-top: 110px;
 }
 .lett h3 {
   color: #1B3764;
@@ -2400,6 +2401,7 @@ nav .logo .sakontaqto1 div .fbicon i {
   border: none;
   border-bottom: 2px solid rgb(0, 0, 0);
   background: none;
+  padding-left: 15px;
 }
 .foto label {
   color: #000000;
