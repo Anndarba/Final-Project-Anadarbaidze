@@ -88,7 +88,7 @@
         background-color: #1B3764;
     }
 }
-// rating
+// // rating
 
 .rating-circle1{
     border-radius: 50px;
@@ -116,12 +116,14 @@
     -o-border-radius: 50px;
 }
 .rating{
-    max-width: 120px;
+    max-width: 150px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin-top: 7px;
+    gap: 5px;
+    flex-direction: row;
 }
 @media(max-width:916px){
     .div-1{
