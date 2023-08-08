@@ -94,7 +94,6 @@
 @media(max-width: 460px){
     .meore{
         .book1, .book2{
-            // display: block;
             flex-wrap: wrap;
             text-align: center;
         }
@@ -152,4 +151,16 @@
         }
     }
 }
-
+.book1, .book2{
+    img{
+        transition: 1s ease-in-out;
+        -webkit-transition: 1s ease-in-out;
+        -moz-transition: 1s ease-in-out;
+        -ms-transition: 1s ease-in-out;
+        -o-transition: 1s ease-in-out;
+}
+img:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+}

@@ -703,7 +703,7 @@ nav .logo .sakontaqto1 div .fbicon i {
     font-size: 35px;
   }
 }
-@media (max-width: 200px) {
+@media (max-width: 218px) {
   .btn button, .btn h5 {
     width: 100px;
   }
@@ -724,14 +724,9 @@ nav .logo .sakontaqto1 div .fbicon i {
     margin-top: 60px;
   }
 }
-@media (max-width: 235px) {
-  .main-texts {
-    padding-top: 40px;
-  }
-}
-@media (max-width: 213px) {
-  .main-texts {
-    padding-top: 60px;
+@media (max-width: 230px) {
+  .main .main-texts {
+    padding-top: 100px;
   }
 }
 .s-2 {
@@ -908,6 +903,18 @@ nav .logo .sakontaqto1 div .fbicon i {
     text-align: center;
   }
 }
+.book1 img, .book2 img {
+  transition: 1s ease-in-out;
+  -webkit-transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -ms-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
+}
+.book1 img:hover, .book2 img:hover {
+  scale: 1.1;
+  cursor: pointer;
+}
+
 .section3 {
   width: 100%;
   background: #F4F8FF;
@@ -1103,7 +1110,7 @@ nav .logo .sakontaqto1 div .fbicon i {
   }
 }
 @media (max-width: 290px) {
-  .pirv {
+  .pirv, .iconebi {
     display: inline-block;
     text-align: center;
   }
